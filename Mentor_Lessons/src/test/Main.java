@@ -1,38 +1,25 @@
 package test;
 
-import java.util.HashMap;
-import java.util.Map;
-import java.util.Scanner;
+import java.util.*;
+import java.util.function.Supplier;
 
 public class Main {
 
     public static void main(String[] args) {
 
-        HashMap <String, Integer> examResults = new HashMap<>();
-
-        Scanner scanner = new Scanner(System.in);
-        while (true) {
-
-            System.out.println ("Enter student (Press Q to quit): ");
-            String student = scanner.next();
-            if (student.equalsIgnoreCase("Q")) {
-                break;
-            }
-
-            System.out.println ("Enter the score: ");
-            int score = scanner.nextInt();
-
-            examResults.put(student, score);
-
-        }
-
-        printExamResults(examResults);
+        String[] names = {"Ann", "Bob", "Carol", "David", "Fred"};
+        String[] randomList = randomlySelectedValues(10, names,
+                () -> new Random().nextInt(0, names.length));
+        System.out.println(Arrays.toString(randomList));
 
     }
 
-    static void printExamResults (HashMap <String, Integer> er) {
-        for (Map.Entry <String, Integer> entry : er.entrySet()) {
-            System.out.println ("%-7s: %2d".formatted(entry.getKey(), entry.getValue()));
+    public static String[] randomlySelectedValues (int count, String[] values, Supplier<Integer> s) {
+
+        String[] selectedValues = new String[count];
+        for (int i = 0; i < count; i++) {
+            selectedValues[i] = values[s.get()];
         }
+        return selectedValues;
     }
 }
