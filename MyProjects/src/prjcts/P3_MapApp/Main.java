@@ -1,9 +1,9 @@
-package Prj3_MapApp;
+package prjcts.P3_MapApp;
 
-import Prj3_MapApp.enums.LineMarker;
-import Prj3_MapApp.enums.PointMarker;
-import Prj3_MapApp.enums.UsageType;
-import Prj3_MapApp.enums.UtilityType;
+import prjcts.P3_MapApp.enums.LineMarker;
+import prjcts.P3_MapApp.enums.PointMarker;
+import prjcts.P3_MapApp.enums.UsageType;
+import prjcts.P3_MapApp.enums.UtilityType;
 
 public class Main {
     public static void main(String[] args) {

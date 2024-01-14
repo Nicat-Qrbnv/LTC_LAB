@@ -1,6 +1,6 @@
-package Prj3_MapApp;
+package prjcts.P3_MapApp;
 
-import Prj3_MapApp.enums.Geometry;
+import prjcts.P3_MapApp.enums.Geometry;
 
 public interface Mappable {
 

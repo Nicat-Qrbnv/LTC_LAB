@@ -1,9 +1,9 @@
-package Prj2_Library;
+package lesson27.task1;
 
 import java.util.ArrayList;
 import java.util.List;
 
-public class Main {
+class Main {
     public static void main(String[] args) {
 
         List <Book> books = new ArrayList<>(List.of(
@@ -13,21 +13,15 @@ public class Main {
             new Book("Time of Contempt", "Sapkowski", 4, 1995)
         ));
 
-        books.forEach(System.out::println);
-        System.out.println ();
-
         Library brdt = new Library("Biblioteca Reale di Torino");
 
         books.forEach(b -> brdt.addBook(b, 5));
         System.out.print (brdt);
         System.out.println ();
 
-        Member mem1 = new Member("Nicat", 1);
-        brdt.addMember(mem1);
-        mem1.borrowBook(brdt, books.get(0));
-        mem1.getBorrowedList();
+        System.out.println (brdt.getBook(1));
         System.out.println ();
-
+        System.out.println (brdt.getBook(5));
 
     }
 }

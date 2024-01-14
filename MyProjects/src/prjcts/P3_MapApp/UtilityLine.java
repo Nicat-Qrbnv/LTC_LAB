@@ -1,8 +1,8 @@
-package Prj3_MapApp;
+package prjcts.P3_MapApp;
 
-import Prj3_MapApp.enums.Geometry;
-import Prj3_MapApp.enums.LineMarker;
-import Prj3_MapApp.enums.UtilityType;
+import prjcts.P3_MapApp.enums.Geometry;
+import prjcts.P3_MapApp.enums.LineMarker;
+import prjcts.P3_MapApp.enums.UtilityType;
 
 public class UtilityLine implements Mappable{
     private static final Geometry TYPE = Geometry.LINE;

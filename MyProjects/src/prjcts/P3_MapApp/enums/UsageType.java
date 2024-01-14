@@ -1,4 +1,4 @@
-package Prj3_MapApp.enums;
+package prjcts.P3_MapApp.enums;
 
 public enum UsageType {
     GOVERNMENT,

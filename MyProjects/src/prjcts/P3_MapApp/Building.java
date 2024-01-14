@@ -1,8 +1,8 @@
-package Prj3_MapApp;
+package prjcts.P3_MapApp;
 
-import Prj3_MapApp.enums.Geometry;
-import Prj3_MapApp.enums.PointMarker;
-import Prj3_MapApp.enums.UsageType;
+import prjcts.P3_MapApp.enums.Geometry;
+import prjcts.P3_MapApp.enums.PointMarker;
+import prjcts.P3_MapApp.enums.UsageType;
 
 public class Building implements Mappable {
     private static final Geometry TYPE = Geometry.POINT;

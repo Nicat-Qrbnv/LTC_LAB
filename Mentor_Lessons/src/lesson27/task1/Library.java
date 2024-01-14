@@ -1,7 +1,7 @@
-package Prj2_Library;
+package lesson27.task1;
 
 import java.util.HashMap;
-import java.util.HashSet;
+import java.util.Map;
 
 public class Library {
 
@@ -10,8 +10,6 @@ public class Library {
 
     private final String name;
     private final HashMap<Book, Integer> books = new HashMap<>();
-    private final HashSet<Member> members = new HashSet<>();
-
 
     //constructor
 
@@ -22,14 +20,25 @@ public class Library {
 
     //getters
 
-    public HashMap<Book, Integer> getBooks() {
+    public Book getBook (int ISBN) {
+
+        try {
+            for (Map.Entry<Book, Integer> book : books.entrySet()) {
+                if (book.getKey().equals(new Book(ISBN))) {
+                    return book.getKey();
+                } else {
+                    throw new BookNotFoundException("Book with %d ISBN not found! ".formatted(ISBN));
+                }
+            }
+        } catch (BookNotFoundException e) {
+            System.out.print (e.getMessage());
+        }
+        return null;
+    }
+
+    public HashMap<Book, Integer> getAllBooks() {
         return books;
     }
-
-    public HashSet<Member> getMembers() {
-        return members;
-    }
-
 
     //other methods
 
@@ -37,11 +46,6 @@ public class Library {
 
         books.put(b, books.get(b) == null ? amount : books.get(b) + amount);
 
-    }
-
-    public void addMember (Member member) {
-        String message = members.add(member) ? (member + " is succesfully added!") : "Member exists!";
-        System.out.println (message);
     }
 
     public StringBuilder getBookCollectionList () {
