@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="a00ef3dd-f227-42a6-89f6-04399344d655" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Mentor_Lessons/src/lesson27/task1/BookNotFoundException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mentor_Lessons/src/lesson27/task2/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mentor_Lessons/src/lesson27/task2/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mentor_Lessons/src/lesson27/task2/ProductCatalog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mentor_Lessons/src/lesson28/exercise/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mentor_Lessons/src/lesson28/exercise/PhoneDirectory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mentor_Lessons/src/lesson28/task1/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mentor_Lessons/src/lesson28/task1/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mentor_Lessons/src/lesson28/task1/StudentRecordSystem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mentor_Lessons/src/lesson28/task2/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mentor_Lessons/src/lesson28/task2/StudentGradeTracker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MyProjects/src/prjcts/P2_Library/Book.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MyProjects/src/prjcts/P2_Library/Library.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MyProjects/src/prjcts/P2_Library/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MyProjects/src/prjcts/P4_Quizz/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MyProjects/src/prjcts/P4_Quizz/Question.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MyProjects/src/prjcts/P4_Quizz/Quiz.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MyProjects/src/prjcts/P5_Shapes/Circle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MyProjects/src/prjcts/P5_Shapes/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MyProjects/src/prjcts/P5_Shapes/Rectangle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MyProjects/src/prjcts/P5_Shapes/Resizable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MyProjects/src/prjcts/P5_Shapes/Shape.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MyProjects/src/prjcts/P5_Shapes/Triangle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MyProjects/src/test/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HomeWorks/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/HomeWorks/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HomeWorks/HomeWorks.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HomeWorks/src/Test/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/HomeWorks/src/Test/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Mentor_Lessons/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Mentor_Lessons/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Mentor_Lessons/Mentor_Lessons.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Mentor_Lessons/src/test/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/Mentor_Lessons/src/test/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyProjects/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/MyProjects/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyProjects/MyProjects.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyProjects/src/Prj2_Library/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/Mentor_Lessons/src/lesson27/task1/Book.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyProjects/src/Prj2_Library/Library.java" beforeDir="false" afterPath="$PROJECT_DIR$/Mentor_Lessons/src/lesson27/task1/Library.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyProjects/src/Prj2_Library/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/Mentor_Lessons/src/lesson27/task1/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyProjects/src/Prj2_Library/Member.java" beforeDir="false" afterPath="$PROJECT_DIR$/MyProjects/src/prjcts/P2_Library/Member.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyProjects/src/Prj3_MapApp/Building.java" beforeDir="false" afterPath="$PROJECT_DIR$/MyProjects/src/prjcts/P3_MapApp/Building.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyProjects/src/Prj3_MapApp/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/MyProjects/src/prjcts/P3_MapApp/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyProjects/src/Prj3_MapApp/Mappable.java" beforeDir="false" afterPath="$PROJECT_DIR$/MyProjects/src/prjcts/P3_MapApp/Mappable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyProjects/src/Prj3_MapApp/UtilityLine.java" beforeDir="false" afterPath="$PROJECT_DIR$/MyProjects/src/prjcts/P3_MapApp/UtilityLine.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyProjects/src/Prj3_MapApp/enums/Geometry.java" beforeDir="false" afterPath="$PROJECT_DIR$/MyProjects/src/prjcts/P3_MapApp/enums/Geometry.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyProjects/src/Prj3_MapApp/enums/LineMarker.java" beforeDir="false" afterPath="$PROJECT_DIR$/MyProjects/src/prjcts/P3_MapApp/enums/LineMarker.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyProjects/src/Prj3_MapApp/enums/PointMarker.java" beforeDir="false" afterPath="$PROJECT_DIR$/MyProjects/src/prjcts/P3_MapApp/enums/PointMarker.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyProjects/src/Prj3_MapApp/enums/UsageType.java" beforeDir="false" afterPath="$PROJECT_DIR$/MyProjects/src/prjcts/P3_MapApp/enums/UsageType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyProjects/src/Prj3_MapApp/enums/UtilityType.java" beforeDir="false" afterPath="$PROJECT_DIR$/MyProjects/src/prjcts/P3_MapApp/enums/UtilityType.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 3
+}]]></component>
+  <component name="ProjectId" id="2axgGvMn90PIOe6jMHMaH5kZsVH" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/nicat/Desktop/Java Projects/LTC_LAB/MyProjects",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="jdk-21.0.1-openjdk-21.0.1-f644763e9732-f98dd351" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a00ef3dd-f227-42a6-89f6-04399344d655" name="Changes" comment="" />
+      <created>1705265551799</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1705265551799</updated>
+      <workItem from="1705265552899" duration="46000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
