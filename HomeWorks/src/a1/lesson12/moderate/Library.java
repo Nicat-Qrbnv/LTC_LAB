@@ -5,7 +5,6 @@ import java.util.Arrays;
 public class Library {
     private String name;
     private Book[] bookCollection;
-    private static int numOfMembers;
 
     public Library(String name, Book[] bookCollection) {
         this.name = name;
