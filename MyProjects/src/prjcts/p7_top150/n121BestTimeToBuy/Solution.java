@@ -1,6 +1,6 @@
-package prjcts.p7_top150.bestTimeToBuy;
+package prjcts.p7_top150.n121BestTimeToBuy;
 
-public class Solution2 {
+public class Solution {
     public static void main(String[] args) {
 
         int[] a = new int[] {7,1,5,3,6,4};
@@ -10,13 +10,13 @@ public class Solution2 {
     }
 
     public static int maxProfit(int[] prices) {
+        int min = prices[0];
         int profit = 0;
 
-        for (int i = 1; i < prices.length; i++) {
-            if (prices[i] >= prices[i-1]) {
-                profit += (prices[i] - prices[i-1]);
-            }
+        for (int price : prices) {
+            if (price <= min) min = price;
 
+            profit = Math.max (profit, (price - min));
         }
 
         return profit;

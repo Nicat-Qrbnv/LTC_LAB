@@ -1,6 +1,4 @@
-package prjcts.p7_top150.gasStation;
-
-import java.util.Arrays;
+package prjcts.p7_top150.n134GasStation;
 
 public class Solution {
     public static void main(String[] args) {
