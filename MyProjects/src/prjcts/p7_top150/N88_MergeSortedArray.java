@@ -1,8 +1,8 @@
-package prjcts.p7_top150.n88MergeSortedArray;
+package prjcts.p7_top150;
 
 import java.util.Arrays;
 
-public class Solution {
+public class N88_MergeSortedArray {
     public static void main(String[] args) {
         int[] m1 = new int[] {1,2,3,0,0,0};
         int[] n1 = new int[] {2,5,6};
@@ -18,15 +18,15 @@ public class Solution {
     }
 
     public static void merge(int[] nums1, int m, int[] nums2, int n) {
-        int i = m - 1;
-        int j = n - 1;
+        int l = m - 1;
+        int r = n - 1;
         int k = m + n - 1;
 
-        while (j >= 0) {
-            if (i >= 0 && nums1[i] > nums2[j]) {
-                nums1[k--] = nums1[i--];
+        while (r >= 0) {
+            if (l >= 0 && nums1[l] > nums2[r]) {
+                nums1[k--] = nums1[l--];
             } else {
-                nums1[k--] = nums2[j--];
+                nums1[k--] = nums2[r--];
             }
         }
         System.out.println(Arrays.toString(nums1));

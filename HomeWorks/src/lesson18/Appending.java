@@ -4,9 +4,9 @@ import static lesson18.DEMO.strBff;
 
 public class Appending implements Runnable {
 
-    private final StringBuilder lock;
+    private final StringBuffer lock;
     private String str;
-    public Appending(String str, StringBuilder lock) {
+    public Appending(String str, StringBuffer lock) {
         this.str = str;
         this.lock = lock;
     }

@@ -1,6 +1,6 @@
-package prjcts.p7_top150.n134GasStation;
+package prjcts.p7_top150;
 
-public class Solution {
+public class N134_GasStation {
     public static void main(String[] args) {
         int[] gas = new int[] {1,2,3,4,5}, cost = new int[] {3,4,5,1,2};
         System.out.println(canCompleteCircuit(gas, cost));

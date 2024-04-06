@@ -1,6 +1,6 @@
 package lesson17;
 
-public class OneToTen extends Thread{
+public class OneToTen implements Runnable{
     volatile int num = 0;
 
     public synchronized int increase () {
@@ -9,5 +9,10 @@ public class OneToTen extends Thread{
 
     public int getNum() {
         return num;
+    }
+
+    @Override
+    public void run() {
+
     }
 }

@@ -2,7 +2,7 @@ package lesson18;
 
 public class DEMO {
 
-    static StringBuilder strBff = new StringBuilder("Buffer: ");
+    static StringBuffer strBff = new StringBuffer("Buffer: ");
 
     public static void main(String[] args) throws InterruptedException {
 
@@ -22,18 +22,11 @@ public class DEMO {
         System.out.println(strBld);
         System.out.println();
 
-        Appending a1 = new Appending("kar ", strBff);
-        Appending a2 = new Appending("kor ", strBff);
-        Appending a3 = new Appending("kürkü ", strBff);
-        Appending a4 = new Appending("yırtıq ", strBff);
-        Appending a5 = new Appending("kirpi.", strBff);
-
-        Thread t1 = new Thread(a1);
-        Thread t2 = new Thread(a2);
-        Thread t3 = new Thread(a3);
-        Thread t4 = new Thread(a4);
-        Thread t5 = new Thread(a5);
-
+        Thread t1 = getThread("kar ", strBff);
+        Thread t2 = getThread("kor ", strBff);
+        Thread t3 = getThread("kürkü ", strBff);
+        Thread t4 = getThread("yırtıq ", strBff);
+        Thread t5 = getThread("kirpi.", strBff);
 
         t1.start();
         t1.join();
@@ -46,5 +39,10 @@ public class DEMO {
         t5.start();
         t5.join();
 
+    }
+
+    public static Thread getThread (String s, StringBuffer sb) {
+        Appending a = new Appending(s, sb);
+        return new Thread(a);
     }
 }
