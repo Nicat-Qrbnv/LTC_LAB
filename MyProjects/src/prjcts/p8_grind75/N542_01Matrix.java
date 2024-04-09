@@ -22,57 +22,6 @@ public class N542_01Matrix {
         }
     }
 
-    public static int[][] updateMatrix1(int[][] mat) {
-        for (int i = 0; i< mat.length; i++) {
-            for (int j=0; j< mat[i].length; j++) {
-                if (mat[i][j] != 0) {
-                    mat[i][j] = search(mat, i, j);
-                }
-            }
-        }
-        return mat;
-    }
-
-    public static int search (int[][] mat, int i, int j) {
-        int u = searchUp(mat, i, j);
-        int d = searchDown(mat, i, j);
-        int r = searchRight(mat, i, j);
-        int l = searchLeft(mat, i, j);
-        return Math.min (Math.min(u, d), Math.min(r, l));
-    }
-
-    public static int searchUp (int[][] mat, int i, int j) {
-        int u;
-        for (u = 1; u < i; u++) {
-            if (mat[i-u][j] == 0) break;
-        }
-        return u;
-    }
-
-    public static int searchDown (int[][] mat, int i, int j) {
-        int d;
-        for (d = 1; i+d < mat.length; d++) {
-            if (mat[i+d][j] == 0) break;
-        }
-        return d;
-    }
-
-    public static int searchRight (int[][] mat, int i, int j) {
-        int r;
-        for (r = 1; j+r < i; r++) {
-            if (mat[i][j+r] == 0) break;
-        }
-        return r;
-    }
-
-    public static int searchLeft (int[][] mat, int i, int j) {
-        int l;
-        for (l = 1; l < j; l++) {
-            if (mat[i][j-l] == 0) break;
-        }
-        return l;
-    }
-
     static int[] DIR = new int[]{0, 1, 0, -1, 0};
     public static int[][] updateMatrix(int[][] mat) {
         int m = mat.length, n = mat[0].length;

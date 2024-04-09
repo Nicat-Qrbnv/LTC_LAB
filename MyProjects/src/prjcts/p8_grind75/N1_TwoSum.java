@@ -23,4 +23,19 @@ public class N1_TwoSum {
         }
         return null;
     }
+
+    public int[] twoSum2(int[] nums, int target) {//[17,8,2,11,7], target = 9
+        Map<Integer, Integer> nm = new HashMap<>();
+        int n = nums.length;
+
+        for (int i = 0; i < n; i++) {
+            int c = target - nums[i];
+            if (nm.containsKey(c)) {
+                return new int[]{nm.get(c), i};
+            }
+            nm.put(nums[i], i);
+        }
+
+        return null;
+    }
 }

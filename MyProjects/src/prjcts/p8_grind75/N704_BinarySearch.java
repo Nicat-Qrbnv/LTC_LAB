@@ -25,9 +25,4 @@ public class N704_BinarySearch {
         }
         return -1;
     }
-
-    public int search1(int[] nums, int target) {
-        int i = Arrays.binarySearch(nums, target);
-        return Math.max(i, -1);
-    }
 }
